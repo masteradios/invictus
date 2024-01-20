@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "547017677460",
+    "project_id": "invictus-e1911",
+    "storage_bucket": "invictus-e1911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547017677460:android:9b647f4ea3f13921dc7281",
+        "android_client_info": {
+          "package_name": "com.example.invictus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqU47eEOzw0UTP0HBMsd8xIFQ7KkxDfjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
