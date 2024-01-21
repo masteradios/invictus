@@ -10,5 +10,5 @@ const List<String> carouselImages = [
   'https://images-na.ssl-images-amazon.com/images/G/31/Symbol/2020/00NEW/1242_450Banners/PL31_copy._CB432483346_.jpg',
   'https://images-na.ssl-images-amazon.com/images/G/31/img21/shoes/September/SSW/pc-header._CB641971330_.jpg',
 ];
-const uri="https://fbe7-103-117-185-144.ngrok-free.app/videos";
+const uri="https://470c-103-117-185-144.ngrok-free.app/videos";
 const backgroundColor=Colors.green;

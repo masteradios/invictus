@@ -50,6 +50,11 @@ dependencies:
   smooth_page_indicator: ^1.1.0
   url_launcher: ^6.2.3
   percent_indicator: ^4.2.3
+  # Added chatGPT SDK using this link - https://pub.dev/packages/chat_gpt_sdk
+  chat_gpt_sdk: ^1.0.2+3
+  # Added velocity package to make Flutter development easier and more joyful by using this link -
+  # https://pub.dev/packages/velocity_x
+  velocity_x: ^3.6.0
 
 dev_dependencies:
   flutter_test:

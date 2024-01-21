@@ -53,11 +53,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   CurvedSquare(
                     title: 'Physics',
-                    channelId: 'UCiGyWN6DEbnj2alu7iapuKQ',
+                    channelId: 'UC640y4UvDAlya_WOj5U4pfA',
                   ),
                   CurvedSquare(
                     title: 'Chemistry',
-                    channelId: 'UCiGyWN6DEbnj2alu7iapuKQ',
+                    channelId: 'UC640y4UvDAlya_WOj5U4pfA',
                   ),
                   CurvedSquare(
                     title: 'Biology',

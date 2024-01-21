@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:invictus/screens/Doubt_Solver/DoubtSolver.dart';
 import 'package:invictus/screens/account_screen.dart';
 import 'package:invictus/screens/auth/auth_screen.dart';
 import 'package:invictus/screens/auth/login_screen.dart';
@@ -26,6 +27,10 @@ Route getRoutes(RouteSettings routeSettings) {
     case UploadVideo.routeName:
       return MaterialPageRoute(builder: (context) {
         return const UploadVideo();
+      });
+    case DoubtSolver.routeName:
+      return MaterialPageRoute(builder: (context) {
+        return const DoubtSolver();
       });
     case Sample.routeName:
       return MaterialPageRoute(builder: (context) {

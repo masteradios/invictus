@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:invictus/screens/Doubt_Solver/DoubtSolver.dart';
 import 'package:invictus/screens/drawer_screens/upload_video.dart';
 import 'package:invictus/screens/recommend_exams/recomend_exams.dart';
 import 'package:invictus/screens/youtube_recc.dart';
@@ -38,6 +39,10 @@ showDrawer({required BuildContext context}) {
   void goToCommunity() {
     Navigator.of(context).pop();
     Navigator.pushNamed(context, UploadVideo.routeName);
+  }
+  void goToDoubtSolver() {
+    Navigator.of(context).pop();
+    Navigator.pushNamed(context, DoubtSolver.routeName);
   }
 
   return SafeArea(
@@ -95,6 +100,11 @@ showDrawer({required BuildContext context}) {
                       callback: () =>
                           redirectToURL('https://books.ebalbharati.in/'),
                       iconimage: 'assets/open-book.png',
+                    ),
+                    DrawerChild(
+                      title: 'Doubt_Solver',
+                      callback: () => goToDoubtSolver(),
+                      iconimage: 'assets/community.png',
                     ),
                   ],
                 ),
