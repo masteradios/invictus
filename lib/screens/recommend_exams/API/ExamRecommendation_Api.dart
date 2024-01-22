@@ -5,7 +5,7 @@ class ExamRecommendationApi {
   static Future<List<String>> getExamList(
       {required String educationLevel,required String age}) async {
     final response = await http.get(
-      Uri.parse('https://8b28-111-125-235-25.ngrok-free.app/get_exams_list?query1=$educationLevel&query2=$age'),
+      Uri.parse('https://23e8-114-79-178-184.ngrok-free.app/get_exams_list?query1=$educationLevel&query2=$age'),
     );
 
     if (response.statusCode == 200) {

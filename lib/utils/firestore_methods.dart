@@ -43,7 +43,6 @@ class FirestoreMethods {
     try {
       QuerySnapshot snap = await _firestore
           .collection('videos')
-          .where("userid", isEqualTo: _auth.currentUser!.uid)
           .get();
       for (int i = 0; i < snap.docs.length; i++) {
         videos.add(Video.fromSnap(snap.docs[i]));

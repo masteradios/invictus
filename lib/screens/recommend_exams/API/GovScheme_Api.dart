@@ -3,7 +3,7 @@ import 'dart:convert';
 class GovSchemeApi {
   static Future<List<Map<String, dynamic>>> getRankedFiles(String query1, String query2) async {
     final response = await http.get(
-      Uri.parse('https://8b28-111-125-235-25.ngrok-free.app/get_ranked_files?query1=$query1&query2=$query2'),
+      Uri.parse('https://23e8-114-79-178-184.ngrok-free.app/get_ranked_files?query1=$query1&query2=$query2'),
     );
 
     if (response.statusCode == 200) {

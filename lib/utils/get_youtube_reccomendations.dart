@@ -13,7 +13,7 @@ class YoutubeRec {
     List<Youtube> ytvideos = [];
     try {
       http.Response res = await http.post(
-        Uri.parse('$uri'),
+        Uri.parse('https://7219-103-117-185-144.ngrok-free.app/videos'),
         body: jsonEncode({
           'query': query,
           "channelId": channelId
